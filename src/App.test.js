@@ -12,4 +12,5 @@ test("check if redirect link is correct",()=>{
   
   const linkElement=screen.getByTestId('redirect-link');
   expect(linkElement.href).toContain('https://reactjs.org');
+  
 })
